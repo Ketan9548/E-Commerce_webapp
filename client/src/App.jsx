@@ -3,7 +3,7 @@ import Header from './components/Header/Header'
 import Newheader from './components/Newheader/Newheader';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState('')
 
   return (
     <>
