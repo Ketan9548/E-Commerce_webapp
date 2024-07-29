@@ -4,7 +4,7 @@ const Newheader = () => {
     return (
         <>
             <div className='good'>
-                good
+                good one
             </div>
 
         </>
