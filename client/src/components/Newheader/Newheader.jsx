@@ -21,9 +21,7 @@ const Newheader = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
-
 export default Newheader

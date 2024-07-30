@@ -13,7 +13,7 @@ const Header = () => {
             <img src="./amazon_logo.png" alt="" />
           </div>
           <div className="nav_searchbaar">
-            <input type="text" />
+            <input type="text" placeholder='Search Amazon.in'/>
             <div className="search_icon">
               <SearchIcon id="search" />
             </div>
@@ -21,7 +21,7 @@ const Header = () => {
         </div>
         <div className="right">
           <div className="nav_btn">
-            <a href="">SingIn</a>
+            <a href="#">SingIn</a>
           </div>
           <div className="cart_btn">
             <Badge badgeContent={4} color="primary">

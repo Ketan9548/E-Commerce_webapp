@@ -24,7 +24,6 @@
     font-size: 13px;
 }
 
-/* media query */
 @media (max-width:808px){
     .new_nav{
        display: none;
@@ -32,6 +31,11 @@
 }
 
 .left_data p:hover{
-    border: 1px solid white;
-    padding: 4px;
+    border: 1.2px solid white;
+    cursor: pointer;
+}
+
+.left_data p{
+    margin-top: 1px;
+    height: 100%;
 }
