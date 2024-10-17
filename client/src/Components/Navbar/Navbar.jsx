@@ -5,15 +5,16 @@ import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
 import { Link } from 'react-router-dom'
 import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
+import NewNavbar from './NewNavbar';
 
 const Navbar = () => {
     return (
         <>
-            <header>
-                <nav className="bg-gray-900 p-4">
-                    <div className="grid grid-cols-3 h-fit">
+            <header className='bg-gray-900'>
+                <nav className="p-4 ">
+                    <div className="grid grid-cols-3 h-fit gap-x-20 md:grid-cols-3 ">
                         <div>
-                            <img src={img} alt="Logo" className="h-10 w-40" />
+                            <img src={img} alt="Logo" className="h-10 w-26" />
                         </div>
                         <div className="flex items-center justify-center space-x-2">
                             <input
@@ -25,7 +26,7 @@ const Navbar = () => {
                                 <SearchIcon />
                             </div>
                         </div>
-                        <div className='flex flex-row justify-end h-9 relative bottom-2'>
+                        <div className='flex flex-row h-9 relative  bottom-2 '>
                             <div className='p-0 cursor-pointer mr-6 ml-6 hover:border-2 border-spacing-2 relative top-5'>
                                 <Link to="/singin" className="text-white">Singin</Link>
                             </div>
@@ -45,6 +46,7 @@ const Navbar = () => {
                     </div>
                 </nav>
             </header>
+            <NewNavbar />
         </>
     );
 };
